@@ -20,6 +20,7 @@ public class TwoDimensional{
         {4,5,6},
         {7,8,9}};
 
+        //three represents the number of elements
         int[][] threeExample= new int[3][];
         //{{null},
         //{null},
@@ -51,5 +52,9 @@ public class TwoDimensional{
         System.out.println("*************************");
         //four way
         System.out.println(Arrays.deepToString(iterate)); 
+        
+        iterate[1]=new int[]{11,12,13};
+        //iterate[1]=new {11,12,13}; error
+        System.out.println(Arrays.deepToString(iterate));
     }
 }
