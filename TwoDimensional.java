@@ -41,6 +41,7 @@ public class TwoDimensional{
             }
             System.out.println();
         } 
+        
         //three way
         System.out.println("*************************");
         for (var renglones: iterate){
